@@ -1,0 +1,42 @@
+# Java Library Management System
+
+A simple yet functional library management system built in Java, demonstrating object-oriented programming principles.
+
+##  Overview
+This project simulates a basic library system with book tracking, borrowing, and returning functionality. It serves as an educational example of Java programming concepts including classes, objects, arrays, and encapsulation.
+
+##  Project Structure
+
+### `Book.java`
+The `Book` class represents individual books in the library system.
+
+**Features:**
+- Tracks book title and borrowing status
+- Methods to borrow, return, and check availability
+- Simple validation logic
+
+**Key Methods:**
+- `borrowed()` - Marks a book as borrowed
+- `returned()` - Marks a book as returned
+- `isBorrowed()` - Checks current borrowing status
+- `getTitle()` - Returns the book's title
+
+### `Library.java`
+The `Library` class manages a collection of books and library operations.
+
+**Features:**
+- Stores up to 100 books in an array
+- Handles book borrowing and returning with validation
+- Displays available books and library information
+- Static method for shared opening hours
+
+**Key Methods:**
+- `addBook(Book)` - Adds a book to the library
+- `borrowBook(String)` - Borrows a book by title
+- `returnBook(String)` - Returns a borrowed book
+- `printAvailableBooks()` - Lists all available books
+- `printOpeningHours()` - Static method displaying hours
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Any Java IDE (IntelliJ, Eclipse, VS Code) or command line
