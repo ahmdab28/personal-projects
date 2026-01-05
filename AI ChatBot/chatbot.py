@@ -65,4 +65,4 @@ while True:
     answer = chat(user_input)
     print("You: ", user_input)
     print("Assistant:",answer)
-    print("Cureent tokens:", total_tokens_used(messages))
+    print("Curent tokens:", total_tokens_used(messages))
